@@ -236,7 +236,7 @@ body {
   }
 
   .hero {
-    padding: 70px 0 90px;
+   padding: 120px 0 140px;
   }
 
   .hero-grid {
@@ -370,7 +370,9 @@ body {
 
 .how-it-works{
 
-    padding:120px 0;
+   padding:160px 0;
+   background:#ffffff;
+   position:relative;
 
 }
 
@@ -442,6 +444,9 @@ body {
 
     transition:.25s;
 
+    overflow:hidden;
+    position:relative;
+
 }
 
 .step-card:hover{
@@ -458,7 +463,7 @@ body {
 
     height:58px;
 
-    background:var(--blue);
+    background:linear-gradient(135deg,#2563EB,#1D4ED8);
 
     color:white;
 
@@ -501,5 +506,23 @@ body {
 grid-template-columns:1fr;
 
 }
+
+}
+
+.step-card::before{
+
+content:"";
+
+position:absolute;
+
+left:0;
+
+top:0;
+
+width:100%;
+
+height:5px;
+
+background:linear-gradient(90deg,#2563EB,#16A34A);
 
 }
