@@ -126,11 +126,11 @@ body {
   padding: 92px 0 110px;
 }
 
-.hero-grid {
-  display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
-  align-items: center;
-  gap: 80px;
+.hero-grid{
+    display:grid;
+    grid-template-columns:0.95fr 1.05fr;
+    align-items:center;
+    gap:40px;
 }
 
 .eyebrow {
@@ -145,20 +145,20 @@ body {
   margin-bottom: 26px;
 }
 
-.hero-content h1 {
-  margin: 0;
-  max-width: 720px;
-  font-size: clamp(44px, 6vw, 72px);
-  line-height: 0.98;
-  letter-spacing: -3px;
+.hero-content h1{
+    margin:0;
+    max-width:650px;
+    font-size:clamp(38px,4.8vw,58px);
+    line-height:1.08;
+    letter-spacing:-2px;
+    font-weight:800;
 }
 
-.hero-content p {
-  margin: 28px 0 0;
-  max-width: 620px;
-  font-size: 20px;
-  line-height: 1.75;
-  color: var(--muted);
+.hero-content p{
+    max-width:560px;
+    font-size:18px;
+    line-height:1.75;
+    color:var(--muted);
 }
 
 .hero-actions {
@@ -199,8 +199,8 @@ body {
 }
 
 .hero-document{
-    width:100%;
-    max-width:520px;
+    width:115%;
+    max-width:640px;
     filter:drop-shadow(0 45px 70px rgba(37,99,235,.18));
     animation:float 6s ease-in-out infinite;
     user-select:none;
