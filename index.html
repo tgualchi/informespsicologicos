@@ -4,42 +4,93 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>InformesPsicologicos.com | Validación Electrónica</title>
+
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <main class="hero">
-    <section class="hero-content">
-      <div class="badge">Sistema de Validación Electrónica</div>
+  <header class="site-header">
+    <div class="container header-inner">
 
-      <h1>Valide la autenticidad de un documento profesional</h1>
+      <a href="#" class="brand">
+        <img src="img/logo.svg" alt="InformesPsicologicos.com" class="brand-logo">
+        <div class="brand-text">
+          <strong>InformesPsicologicos.com</strong>
+          <span>Sistema de Validación Electrónica</span>
+        </div>
+      </a>
 
-      <p>
-        Verifique informes psicológicos, certificados psicológicos, certificados psiquiátricos
-        y documentación profesional emitida electrónicamente mediante código QR o código único.
-      </p>
+      <nav class="main-nav">
+        <a href="#funciona">Cómo funciona</a>
+        <a href="#documentos">Documentos</a>
+        <a href="#seguridad">Seguridad</a>
+      </nav>
 
-      <a class="btn" href="#">Validar documento</a>
-    </section>
+      <a href="https://www.informespsicologicos.com/validacion" class="header-btn">
+        Validar documento
+      </a>
 
-    <section class="document-card">
-      <div class="doc-header">
-        <span></span>
-        <span></span>
-        <span></span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+          <div class="eyebrow">Validación electrónica profesional</div>
+
+          <h1>Valide la autenticidad de un documento profesional.</h1>
+
+          <p>
+            Plataforma de verificación digital para informes psicológicos,
+            certificados psicológicos, certificados psiquiátricos y documentación
+            profesional emitida electrónicamente.
+          </p>
+
+          <div class="hero-actions">
+            <a href="https://www.informespsicologicos.com/validacion" class="primary-btn">
+              Validar documento
+            </a>
+            <a href="#funciona" class="secondary-btn">
+              Cómo funciona
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="document-preview">
+            <div class="doc-top">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="doc-title">Informe Psicológico</div>
+
+            <div class="doc-line full"></div>
+            <div class="doc-line medium"></div>
+            <div class="doc-line small"></div>
+
+            <div class="qr-box">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+
+            <div class="verified-pill">
+              ✓ Documento verificado
+            </div>
+          </div>
+        </div>
+
       </div>
-
-      <h3>Informe Psicológico</h3>
-
-      <div class="line w1"></div>
-      <div class="line w2"></div>
-      <div class="line w3"></div>
-
-      <div class="qr">QR</div>
-
-      <div class="verified">✓ Documento verificado</div>
     </section>
   </main>
 
+  <script src="script.js"></script>
 </body>
 </html>
