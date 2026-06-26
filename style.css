@@ -300,3 +300,68 @@ body {
     text-align: center;
   }
 }
+/* ---------- TRUST CARDS ---------- */
+
+.trust-cards{
+
+    display:flex;
+    gap:18px;
+    margin-top:42px;
+    flex-wrap:wrap;
+
+}
+
+.trust-card{
+
+    background:white;
+    border:1px solid var(--border);
+
+    border-radius:18px;
+
+    padding:18px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    min-width:210px;
+
+    box-shadow:0 18px 40px rgba(15,23,42,.06);
+
+    transition:.25s;
+
+}
+
+.trust-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 30px 60px rgba(37,99,235,.12);
+
+}
+
+.trust-card img{
+
+    width:34px;
+
+    height:34px;
+
+}
+
+.trust-card strong{
+
+    display:block;
+
+    font-size:15px;
+
+}
+
+.trust-card span{
+
+    color:var(--muted);
+
+    font-size:13px;
+
+}
